@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "topic": "Alkanes",
+    "question": "What is the general molecular formula for an unbranched (acyclic) alkane?",
+    "options": {
+      "A": "CnH2n",
+      "B": "CnH2n+2",
+      "C": "CnH2n-2",
+      "D": "CnHn"
+    },
+    "correct": "B",
+    "explanation": "Alkanes are saturated hydrocarbons, meaning every carbon is sp3 hybridized and bonded to the maximum possible number of hydrogens, giving the formula CnH2n+2.",
+    "notes": {
+      "A": "CnH2n is the formula for alkenes, which contain one C=C double bond and therefore two fewer hydrogens than the saturated alkane of the same carbon count.",
+      "C": "CnH2n-2 belongs to alkynes (one triple bond) or dienes, not saturated hydrocarbons.",
+      "D": "CnHn does not correspond to any simple aliphatic hydrocarbon series; it would imply an unrealistically high degree of unsaturation."
+    }
+  },
+  {
+    "id": 2,
+    "topic": "Alkanes",
+    "question": "In the Wurtz reaction, an alkyl halide is treated with sodium metal in dry ether to produce:",
+    "options": {
+      "A": "An alkene by elimination",
+      "B": "An alcohol",
+      "C": "A longer-chain alkane by coupling two alkyl groups",
+      "D": "A carboxylic acid"
+    },
+    "correct": "C",
+    "explanation": "The Wurtz reaction couples two alkyl halide molecules using sodium in an ethereal solution, joining the two alkyl fragments to form a new, longer C-C bond and produce a symmetrical alkane (e.g., 2 CH3CH2Br + 2Na \u2192 CH3CH2CH2CH3 + 2NaBr).",
+    "notes": {
+      "A": "Elimination to form an alkene is the outcome of dehydrohalogenation with a strong base like alcoholic KOH, not the Wurtz reaction.",
+      "B": "Alcohols are produced by nucleophilic substitution of alkyl halides with hydroxide, not by treatment with sodium metal.",
+      "D": "Carboxylic acids are not a product of this reaction; they would require oxidation chemistry."
+    }
+  },
+  {
+    "id": 3,
+    "topic": "Alkanes",
+    "question": "During radical halogenation, why is 2-chlorobutane formed in greater proportion than 1-chlorobutane, even though butane has more primary hydrogens than secondary ones?",
+    "options": {
+      "A": "Secondary C-H bonds are statistically more abundant than primary ones",
+      "B": "The secondary radical intermediate is more stable, so it forms faster than the primary radical",
+      "C": "Chlorine only reacts with secondary carbons",
+      "D": "Primary hydrogens do not react with chlorine radicals at all"
+    },
+    "correct": "B",
+    "explanation": "Radical stability follows tertiary > secondary > primary > methyl. Because the secondary radical formed by abstracting a hydrogen from an internal carbon is more stable (and therefore forms faster) than the primary radical, secondary C-H bonds are abstracted more readily per bond, giving more 2-chlorobutane despite there being fewer secondary hydrogens overall.",
+    "notes": {
+      "A": "Butane actually has 6 primary hydrogens versus only 4 secondary ones, so statistics alone would favor the primary product, not the secondary one.",
+      "C": "Chlorine radicals do abstract primary hydrogens; 1-chlorobutane is still formed, just in a smaller proportion (about 28%).",
+      "D": "Primary hydrogens are reactive; they are simply abstracted more slowly than secondary hydrogens because the resulting radical is less stable."
+    }
+  },
+  {
+    "id": 4,
+    "topic": "Alkanes",
+    "question": "Why are alkanes almost totally insoluble in water?",
+    "options": {
+      "A": "They are denser than water",
+      "B": "They have very low polarity and cannot form hydrogen bonds with water",
+      "C": "They react with water to form alkoxides",
+      "D": "They have very high boiling points"
+    },
+    "correct": "B",
+    "explanation": "Alkanes contain only C-H and C-C sigma bonds with almost no electronegativity difference, so the molecule is essentially nonpolar and cannot participate in hydrogen bonding with water, making them insoluble.",
+    "notes": {
+      "A": "Density is unrelated to solubility; in fact, alkanes are less dense than water (which is why petroleum floats), not more dense.",
+      "C": "Alkanes are unreactive (\"paraffins\") and do not react with water under ordinary conditions; alkoxides form from alcohols reacting with active metals, not from alkanes.",
+      "D": "Boiling point trends do not determine water solubility; polarity and hydrogen-bonding capacity do."
+    }
+  },
+  {
+    "id": 5,
+    "topic": "Alkenes",
+    "question": "What is the general molecular formula of an acyclic alkene?",
+    "options": {
+      "A": "CnH2n+2",
+      "B": "CnH2n",
+      "C": "CnH2n-2",
+      "D": "CnH2n-4"
+    },
+    "correct": "B",
+    "explanation": "Alkenes contain one C=C double bond, which removes two hydrogens compared to the corresponding saturated alkane, giving the general formula CnH2n.",
+    "notes": {
+      "A": "CnH2n+2 describes saturated alkanes, which have no double bonds.",
+      "C": "CnH2n-2 corresponds to alkynes (one triple bond) or dienes (two double bonds), which have greater unsaturation than a simple alkene.",
+      "D": "CnH2n-4 implies even more unsaturation, such as a diyne or two double bonds plus a ring, well beyond a single alkene."
+    }
+  },
+  {
+    "id": 6,
+    "topic": "Alkenes",
+    "question": "In an alkene, each doubly-bonded carbon is best described as:",
+    "options": {
+      "A": "sp hybridized, forming two sigma and two pi bonds",
+      "B": "sp3 hybridized, forming four sigma bonds",
+      "C": "sp2 hybridized, forming three sigma bonds and sharing one pi bond",
+      "D": "sp3d hybridized, forming five bonds"
+    },
+    "correct": "C",
+    "explanation": "Each carbon of a C=C double bond uses three sp2 hybrid orbitals to form three sigma bonds (to the other carbon and two other groups), while the unhybridized p-orbitals on each carbon overlap side-on to form the pi bond of the double bond.",
+    "notes": {
+      "A": "sp hybridization with two sigma and two pi bonds describes a triple-bonded carbon in an alkyne, not an alkene.",
+      "B": "sp3 hybridization with four sigma bonds and no pi bond describes a saturated alkane carbon.",
+      "D": "sp3d hybridization is associated with certain hypervalent main-group compounds, not carbon in hydrocarbons."
+    }
+  },
+  {
+    "id": 7,
+    "topic": "Alkenes",
+    "question": "Compared to the C-C single bond in ethane, the C=C bond in ethene is:",
+    "options": {
+      "A": "Longer, because it contains an extra pi bond",
+      "B": "The same length, since both are carbon-carbon bonds",
+      "C": "Shorter, because the sigma-plus-pi combination pulls the nuclei closer together",
+      "D": "Impossible to compare, since they are different molecules"
+    },
+    "correct": "C",
+    "explanation": "The C=C double bond (about 1.33 \u00c5) is shorter than the C-C single bond (about 1.54 \u00c5) because the additional pi bond and the greater s-character of the sp2 orbitals draw the bonded atoms closer together.",
+    "notes": {
+      "A": "The presence of a second bond (the pi bond) shortens rather than lengthens the bond, since more shared electron density pulls the nuclei together.",
+      "B": "Bond length depends on bond order and hybridization, so a double bond and single bond between carbons are not the same length.",
+      "D": "Bond lengths for common functional groups are well characterized and can be directly compared across similar compounds."
+    }
+  },
+  {
+    "id": 8,
+    "topic": "Alkynes",
+    "question": "What is the general molecular formula for an acyclic alkyne containing one triple bond?",
+    "options": {
+      "A": "CnH2n+2",
+      "B": "CnH2n",
+      "C": "CnH2n-2",
+      "D": "CnH2n-6"
+    },
+    "correct": "C",
+    "explanation": "A triple bond removes two hydrogens beyond what a double bond would remove, so alkynes with one triple bond follow the general formula CnH2n-2, the same formula shared with dienes (two double bonds).",
+    "notes": {
+      "A": "CnH2n+2 is the fully saturated alkane formula with no multiple bonds at all.",
+      "B": "CnH2n corresponds to a single double bond (an alkene), which has less unsaturation than a triple bond.",
+      "D": "CnH2n-6 corresponds to benzene and other aromatic rings with three degrees of unsaturation from the ring plus alternating bonds, not a simple chain alkyne."
+    }
+  },
+  {
+    "id": 9,
+    "topic": "Alkynes",
+    "question": "The carbon atoms of a C\u2261C triple bond are best described as having what geometry and hybridization?",
+    "options": {
+      "A": "Tetrahedral, sp3",
+      "B": "Trigonal planar, sp2",
+      "C": "Linear, sp",
+      "D": "Bent, sp3d2"
+    },
+    "correct": "C",
+    "explanation": "Triple-bonded carbons are sp hybridized, giving a linear arrangement (bond angle 180\u00b0) with one sigma bond and two mutually perpendicular pi bonds making up the triple bond.",
+    "notes": {
+      "A": "Tetrahedral sp3 geometry describes saturated, single-bonded carbons, which have no pi bonds.",
+      "B": "Trigonal planar sp2 geometry describes carbons in a double bond (alkenes), not a triple bond.",
+      "D": "sp3d2 hybridization is associated with octahedral geometries in certain inorganic compounds, not with hydrocarbon triple bonds."
+    }
+  },
+  {
+    "id": 10,
+    "topic": "Alkynes",
+    "question": "When a terminal alkyne is hydrated using HgSO4/H2SO4 in water, Markovnikov addition occurs and the enol formed tautomerizes to give:",
+    "options": {
+      "A": "A primary alcohol",
+      "B": "An aldehyde",
+      "C": "A methyl ketone",
+      "D": "A carboxylic acid"
+    },
+    "correct": "C",
+    "explanation": "Mercury(II)-catalyzed hydration adds water in a Markovnikov fashion (OH to the more substituted alkyne carbon), producing an enol that tautomerizes to place the carbonyl on the internal carbon, giving a methyl ketone.",
+    "notes": {
+      "A": "A primary alcohol would come from reduction, not hydration, and doesn't match the enol-to-carbonyl tautomerization pathway.",
+      "B": "An aldehyde results instead from anti-Markovnikov hydration using hydroboration-oxidation with a bulky borane such as disiamylborane.",
+      "D": "A carboxylic acid would require an oxidation step beyond simple acid-catalyzed hydration; it is not the direct product here."
+    }
+  },
+  {
+    "id": 11,
+    "topic": "Alcohols & Ethers",
+    "question": "How does the acidity of simple alcohols such as methanol and ethanol compare to water?",
+    "options": {
+      "A": "They are far more acidic than water",
+      "B": "They are roughly comparable in acidity to water, with most other alcohols slightly less acidic",
+      "C": "Alcohols are basic, not acidic, in aqueous solution",
+      "D": "Alcohols have no measurable acidity at all"
+    },
+    "correct": "B",
+    "explanation": "Alcohols are weak acids because of the polar O-H bond; methanol and ethanol are about as acidic as water itself, while most other alcohols are somewhat less acidic, particularly as branching and chain length increase.",
+    "notes": {
+      "A": "Alcohols are not strongly acidic compounds; they are much weaker acids than carboxylic acids or mineral acids.",
+      "C": "Alcohols do show weak acidic behavior (losing a proton from the O-H) rather than acting as bases in this context.",
+      "D": "Alcohols do react with active metals such as sodium to liberate hydrogen gas, which is direct evidence of measurable, if weak, acidity."
+    }
+  },
+  {
+    "id": 12,
+    "topic": "Alcohols & Ethers",
+    "question": "In acid-catalyzed dehydration of alcohols to form alkenes, which order of reactivity is observed?",
+    "options": {
+      "A": "1\u00b0 > 2\u00b0 > 3\u00b0",
+      "B": "3\u00b0 > 2\u00b0 > 1\u00b0",
+      "C": "All alcohols dehydrate at the same rate",
+      "D": "2\u00b0 > 1\u00b0 > 3\u00b0"
+    },
+    "correct": "B",
+    "explanation": "More highly substituted alcohols dehydrate more readily because they form more stable carbocation intermediates, giving the reactivity order tertiary > secondary > primary (3\u00b0 > 2\u00b0 > 1\u00b0).",
+    "notes": {
+      "A": "This is the reverse of the true order; primary alcohols are actually the slowest to dehydrate because primary carbocations are the least stable.",
+      "C": "Reactivity varies substantially with the degree of substitution because of differences in carbocation stability, so the rates are not equal.",
+      "D": "This order incorrectly places tertiary alcohols last, when tertiary carbocations are in fact the most stable and dehydrate fastest."
+    }
+  },
+  {
+    "id": 13,
+    "topic": "Alcohols & Ethers",
+    "question": "When an alcohol reacts with an active metal such as sodium, what is formed?",
+    "options": {
+      "A": "An ether and water",
+      "B": "A carboxylic acid",
+      "C": "An alkoxide salt and hydrogen gas",
+      "D": "An alkane"
+    },
+    "correct": "C",
+    "explanation": "Alcohols react with reactive metals like sodium in the same way water does, with the metal displacing the O-H hydrogen to form a metal alkoxide (RO\u207bNa\u207a) and releasing hydrogen gas \u2014 direct evidence of the alcohol's weak acidity.",
+    "notes": {
+      "A": "Ethers are formed by condensation of two alcohol molecules (e.g., via acid-catalyzed dehydration) or by Williamson synthesis, not by simple reaction with sodium metal.",
+      "B": "Formation of a carboxylic acid would require an oxidation reaction (such as with a chromium(VI) reagent), not reaction with a metal.",
+      "D": "Alkanes are not produced from this reaction; reducing an alcohol all the way to an alkane requires harsher conditions like concentrated HI and red phosphorus."
+    }
+  },
+  {
+    "id": 14,
+    "topic": "Alcohols & Ethers",
+    "question": "Diethyl ether is commonly used as the solvent for preparing Grignard reagents mainly because:",
+    "options": {
+      "A": "It reacts with the alkyl halide to speed up the reaction",
+      "B": "Its lone pairs on oxygen coordinate to and stabilize the highly reactive organomagnesium species, while the ether itself is unreactive toward it",
+      "C": "It is the cheapest solvent available in a laboratory",
+      "D": "It lowers the boiling point of magnesium"
+    },
+    "correct": "B",
+    "explanation": "Ethers such as diethyl ether or THF are used because their oxygen lone pairs coordinate to the electrophilic magnesium center, solvating and stabilizing the Grignard reagent, while the ether's own carbon framework is unreactive toward the highly nucleophilic/basic organomagnesium species.",
+    "notes": {
+      "A": "Ether does not react with the alkyl halide; its role is to solvate and stabilize the resulting Grignard reagent, not to participate as a reactant.",
+      "C": "Cost is not the chemical reason ether is chosen; its coordinating ability toward magnesium is what matters mechanistically.",
+      "D": "Ether has no effect on the boiling point of solid magnesium metal; this is not a meaningful consideration for the reaction."
+    }
+  },
+  {
+    "id": 15,
+    "topic": "Carbonyl Compounds",
+    "question": "What structurally distinguishes an aldehyde from a ketone?",
+    "options": {
+      "A": "Aldehydes have the carbonyl group at the end of the chain, bonded to at least one hydrogen (RCHO); ketones have it between two carbon groups (RCOR\u2032)",
+      "B": "Ketones always have more carbon atoms than aldehydes",
+      "C": "Aldehydes contain two oxygen atoms; ketones contain one",
+      "D": "There is no structural difference \u2014 the names are interchangeable"
+    },
+    "correct": "A",
+    "explanation": "In an aldehyde, the carbonyl carbon is bonded to one alkyl (or aryl) group and one hydrogen atom, so the group is always terminal (RCHO). In a ketone, the carbonyl carbon is flanked by two carbon-containing groups, so it is never at the end of the chain (RCOR\u2032).",
+    "notes": {
+      "B": "Chain length is not what defines the two classes; both aldehydes and ketones can have short or long carbon chains.",
+      "C": "Both classes contain exactly one oxygen atom in the carbonyl group; oxygen count does not distinguish them.",
+      "D": "The two groups have distinct structures and correspondingly different chemical reactivity, so the terms are not interchangeable."
+    }
+  },
+  {
+    "id": 16,
+    "topic": "Carbonyl Compounds",
+    "question": "Tollens' reagent is used as a standard test to distinguish aldehydes from ketones because:",
+    "options": {
+      "A": "Ketones give a silver mirror while aldehydes do not",
+      "B": "Aldehydes are readily oxidized, producing a silver mirror deposit, while ketones resist oxidation and give no reaction",
+      "C": "It changes color differently depending on the alkyl chain length",
+      "D": "It only reacts with alcohols, not carbonyl compounds"
+    },
+    "correct": "B",
+    "explanation": "Aldehydes are easily oxidized to carboxylic acids, and in the process they reduce the silver ammine complex in Tollens' reagent to metallic silver, depositing a characteristic silver mirror on the reaction vessel. Ketones lack an oxidizable hydrogen on the carbonyl carbon and are resistant to this oxidation, so they give a negative test.",
+    "notes": {
+      "A": "This reverses the actual result: it is the aldehyde, not the ketone, that produces the positive silver mirror test.",
+      "C": "The test is a yes/no redox indicator (silver mirror or none) based on oxidizability, not a graded color change tied to chain length.",
+      "D": "Tollens' reagent specifically targets the easily oxidized aldehyde carbonyl; simple alcohols are not the basis of this classic test."
+    }
+  },
+  {
+    "id": 17,
+    "topic": "Carbonyl Compounds",
+    "question": "The iodoform test (formation of a yellow precipitate) is a positive, diagnostic test for which type of compound?",
+    "options": {
+      "A": "Any carboxylic acid",
+      "B": "Any primary alcohol",
+      "C": "Methyl ketones (compounds with a CH3-CO- group)",
+      "D": "Any alkene"
+    },
+    "correct": "C",
+    "explanation": "The haloform reaction halogenates the methyl group alpha to a ketone carbonyl three times, and when the halogen is iodine, the resulting fragment splits off as a yellow solid precipitate of iodoform (CHI3), making it a diagnostic test specifically for methyl ketones (and certain oxidizable methyl carbinols).",
+    "notes": {
+      "A": "Carboxylic acids do not undergo this alpha-halogenation-and-cleavage sequence in the same way and are not identified by this test.",
+      "B": "A general primary alcohol does not give a positive iodoform test unless it is specifically a methyl carbinol (CH3CH(OH)-) that can be oxidized in situ to a methyl ketone.",
+      "D": "Alkenes react with halogens by addition across the double bond, an entirely different reaction from the haloform (alpha-carbon) reaction of methyl ketones."
+    }
+  },
+  {
+    "id": 18,
+    "topic": "Carbonyl Compounds",
+    "question": "Sodium borohydride (NaBH4) is described as reducing aldehydes and ketones to give, respectively:",
+    "options": {
+      "A": "Carboxylic acids and esters",
+      "B": "Primary alcohols and secondary alcohols",
+      "C": "Alkanes in both cases",
+      "D": "Ethers in both cases"
+    },
+    "correct": "B",
+    "explanation": "NaBH4 delivers a hydride to the carbonyl carbon, reducing aldehydes (RCHO) to primary alcohols (RCH2OH) and ketones (RCOR\u2032) to secondary alcohols (RCH(OH)R\u2032).",
+    "notes": {
+      "A": "NaBH4 is a reducing agent, so it converts carbonyls to alcohols; it does not oxidize them to carboxylic acids or esters.",
+      "C": "Reduction all the way to an alkane (deoxygenation) requires a different method, such as the Clemmensen or Wolff-Kishner reduction, not NaBH4.",
+      "D": "Simple hydride reduction of a carbonyl gives an alcohol, not an ether; ether formation would require a separate condensation step."
+    }
+  },
+  {
+    "id": 19,
+    "topic": "Carbonyl Compounds",
+    "question": "Which best explains why aldehydes are generally more reactive than ketones toward nucleophilic addition at the carbonyl carbon?",
+    "options": {
+      "A": "Aldehydes have a more electrophilic, less sterically hindered carbonyl carbon (bonded to only one alkyl group instead of two)",
+      "B": "Ketones are more polar than aldehydes",
+      "C": "Aldehydes contain an extra oxygen atom that activates them",
+      "D": "Reactivity is identical between the two classes"
+    },
+    "correct": "A",
+    "explanation": "With only one alkyl (electron-donating, bulky) group attached to the carbonyl carbon instead of two, aldehydes have a carbonyl carbon that is both more electrophilic and less hindered, making it easier for a nucleophile to attack compared to the more crowded, less electrophilic ketone carbonyl.",
+    "notes": {
+      "B": "Ketones are not more polar in a way that increases their reactivity; if anything, the extra alkyl group in a ketone donates electron density and reduces electrophilicity at the carbonyl carbon.",
+      "C": "Both aldehydes and ketones contain exactly one carbonyl oxygen; the reactivity difference comes from sterics and electronics of the attached groups, not oxygen count.",
+      "D": "Their reactivities are clearly different, as demonstrated by tests like Tollens' reagent, which aldehydes pass and ketones do not."
+    }
+  },
+  {
+    "id": 20,
+    "topic": "Carbohydrates",
+    "question": "Carbohydrates are chemically defined as:",
+    "options": {
+      "A": "Polyhydroxy aldehydes or ketones, or compounds that yield such compounds on hydrolysis",
+      "B": "Long chains of amino acids joined by peptide bonds",
+      "C": "Esters of long-chain fatty acids and glycerol",
+      "D": "Hydrocarbons containing only carbon and hydrogen"
+    },
+    "correct": "A",
+    "explanation": "Carbohydrates are polyhydroxy aldehydes or ketones (or substances that yield such compounds on hydrolysis); most conform to the empirical formula (CH2O)n, reflected in glucose's formula C6H12O6.",
+    "notes": {
+      "B": "Chains of amino acids joined by peptide bonds describe proteins, an entirely different class of biomolecule.",
+      "C": "Esters of fatty acids and glycerol describe triglycerides (fats and oils/lipids), not carbohydrates.",
+      "D": "Hydrocarbons contain only carbon and hydrogen, while carbohydrates characteristically also contain multiple oxygen atoms as hydroxyl and carbonyl groups."
+    }
+  },
+  {
+    "id": 21,
+    "topic": "Carbohydrates",
+    "question": "A monosaccharide is classified as an aldose or a ketose based on:",
+    "options": {
+      "A": "The number of carbon atoms in the chain",
+      "B": "Whether the carbonyl group is at the end of the carbon chain (aldose) or at another position (ketose)",
+      "C": "Whether the sugar is a ring or a straight chain",
+      "D": "Whether the sugar is sweet-tasting or not"
+    },
+    "correct": "B",
+    "explanation": "If the carbonyl group is located at the end of the carbon chain, the monosaccharide is an aldehyde and is called an aldose; if the carbonyl is at any other position in the chain, it is a ketone and is called a ketose.",
+    "notes": {
+      "A": "Carbon count instead determines terms like triose, tetrose, pentose, or hexose, which are separate from the aldose/ketose classification.",
+      "C": "Ring versus open-chain form describes the cyclic (e.g., pyranose/furanose) versus acyclic representation of a sugar, not the aldose/ketose distinction.",
+      "D": "Most monosaccharides taste sweet regardless of whether they are aldoses or ketoses, so taste is not the classifying feature."
+    }
+  },
+  {
+    "id": 22,
+    "topic": "Carbohydrates",
+    "question": "Why is sucrose classified as a non-reducing sugar?",
+    "options": {
+      "A": "It contains no oxygen atoms",
+      "B": "The glycosidic linkage joins the anomeric carbons of both glucose and fructose, leaving no free aldehyde or ketone group available to react",
+      "C": "It is not soluble in water",
+      "D": "It is a monosaccharide, not a disaccharide"
+    },
+    "correct": "B",
+    "explanation": "In sucrose, the unusual linkage occurs between the anomeric hydroxyl groups of both glucose and fructose, so neither a free aldehyde (from glucose) nor a free keto group (from fructose) remains available to act as a reducing agent unless the glycosidic bond is hydrolyzed.",
+    "notes": {
+      "A": "Carbohydrates, including sucrose, are rich in oxygen-containing hydroxyl and glycosidic linkages; the absence of oxygen is not the case here.",
+      "C": "Sucrose is highly soluble in water; solubility is unrelated to its reducing/non-reducing classification.",
+      "D": "Sucrose is a disaccharide made of glucose and fructose joined together, not a single monosaccharide unit."
+    }
+  },
+  {
+    "id": 23,
+    "topic": "Carbohydrates",
+    "question": "What is the key structural difference between amylose (in starch) and cellulose, both of which are glucose polymers?",
+    "options": {
+      "A": "Amylose is joined by \u03b1(1\u21924) glycosidic bonds, while cellulose is joined by \u03b2(1\u21924) glycosidic bonds",
+      "B": "Amylose contains fructose units, while cellulose contains only glucose",
+      "C": "Cellulose is branched, while amylose is highly cross-linked",
+      "D": "There is no structural difference; they are the same molecule"
+    },
+    "correct": "A",
+    "explanation": "Both are unbranched polymers of glucose, but amylose (a component of starch) is linked by \u03b1(1\u21924) glycosidic bonds, whereas cellulose is linked by \u03b2(1\u21924) glycosidic bonds; this small stereochemical difference drastically changes their overall shape, digestibility, and function.",
+    "notes": {
+      "B": "Both amylose and cellulose are polymers of glucose only; fructose is not a component of either.",
+      "C": "It is amylopectin (not amylose) that is the branched form of starch, formed via additional \u03b1(1\u21926) linkages; amylose itself is unbranched, and cellulose is also unbranched.",
+      "D": "Despite both being glucose polymers, the different glycosidic linkage geometry makes them structurally and functionally distinct molecules."
+    }
+  },
+  {
+    "id": 24,
+    "topic": "Carbohydrates",
+    "question": "Lactose, the sugar found in milk, is a disaccharide composed of which two monosaccharide units?",
+    "options": {
+      "A": "Glucose and fructose",
+      "B": "Two glucose units",
+      "C": "Glucose and galactose",
+      "D": "Fructose and galactose"
+    },
+    "correct": "C",
+    "explanation": "Lactose is a disaccharide consisting of the monomers glucose and galactose joined by a glycosidic bond.",
+    "notes": {
+      "A": "Glucose and fructose combine to form sucrose (table sugar), not lactose.",
+      "B": "Two glucose units joined by a glycosidic bond form maltose (malt sugar), not lactose.",
+      "D": "Fructose and galactose do not combine to form any of the common disaccharides discussed here; lactose specifically pairs glucose with galactose."
+    }
+  },
+  {
+    "id": 25,
+    "topic": "Proteins",
+    "question": "An amino acid existing in a form with both a positively charged ammonium group and a negatively charged carboxylate group, giving an overall net charge of zero, is called a:",
+    "options": {
+      "A": "Peptide",
+      "B": "Zwitterion",
+      "C": "Free radical",
+      "D": "Chelate"
+    },
+    "correct": "B",
+    "explanation": "At pH values between the pKa of the carboxyl and ammonium groups, an amino acid carries both a negative carboxylate and a positive ammonium group simultaneously, resulting in a net charge of zero; this dipolar ionic form is called a zwitterion.",
+    "notes": {
+      "A": "A peptide is a chain of amino acids joined by peptide (amide) bonds; the term zwitterion instead describes the charge state of an individual amino acid.",
+      "C": "A free radical is a species with an unpaired electron, an entirely different chemical concept from the dual-charge zwitterion.",
+      "D": "A chelate refers to a metal ion bound by a multidentate ligand at multiple points, unrelated to the internal charge balance of an amino acid."
+    }
+  },
+  {
+    "id": 26,
+    "topic": "Proteins",
+    "question": "The isoelectric point (pI) of an amino acid is best described as:",
+    "options": {
+      "A": "The temperature at which the amino acid decomposes",
+      "B": "The pH at which the amino acid, on average, carries no net charge",
+      "C": "The concentration of amino acid needed to saturate a solution",
+      "D": "The pKa of only the carboxyl group"
+    },
+    "correct": "B",
+    "explanation": "The isoelectric point, pI, is the pH of an aqueous amino acid (or peptide) solution at which the positively and negatively charged groups are exactly balanced, giving no net charge on average; for simple amino acids it is calculated as the average of the pKa values of the carboxyl and ammonium groups.",
+    "notes": {
+      "A": "pI is a pH value, not a temperature, and has nothing to do with thermal decomposition.",
+      "C": "Solubility saturation concentration is a separate physical property unrelated to the charge-balance definition of pI.",
+      "D": "The pI is calculated using the pKa values of both relevant ionizable groups (or the two most similar acidic groups), not the carboxyl pKa alone."
+    }
+  },
+  {
+    "id": 27,
+    "topic": "Proteins",
+    "question": "An 'essential amino acid' is one that:",
+    "options": {
+      "A": "Is found only in animal proteins",
+      "B": "Cannot be synthesized by the body and must be obtained through the diet",
+      "C": "Has no R group",
+      "D": "Is always positively charged at physiological pH"
+    },
+    "correct": "B",
+    "explanation": "An essential (or indispensable) amino acid cannot be synthesized de novo by the organism and must therefore be supplied through the diet; examples include histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine.",
+    "notes": {
+      "A": "Essential amino acids are found in many dietary protein sources, both animal and plant-based (in varying amounts), not exclusively in animal protein.",
+      "C": "Every standard amino acid (except glycine's minimal R group of a single hydrogen) has a distinguishing side chain (R group); the term 'essential' refers to dietary necessity, not R-group structure.",
+      "D": "Only the basic amino acids (such as histidine, lysine, and arginine) are positively charged at physiological pH; most essential amino acids are not charged in this way."
+    }
+  },
+  {
+    "id": 28,
+    "topic": "Proteins",
+    "question": "Which pair of amino acids are classified as negatively charged (acidic) side chains at physiological pH?",
+    "options": {
+      "A": "Lysine and arginine",
+      "B": "Aspartate and glutamate",
+      "C": "Alanine and glycine",
+      "D": "Serine and threonine"
+    },
+    "correct": "B",
+    "explanation": "Aspartate and glutamate carry side-chain carboxyl groups that are deprotonated (negatively charged) at physiological pH, placing them in the polar acidic (negatively charged) amino acid class.",
+    "notes": {
+      "A": "Lysine and arginine belong to the polar basic (positively charged) class, along with histidine, not the acidic class.",
+      "C": "Alanine and glycine are classified as small, nonpolar amino acids with no ionizable side chain, so they carry no charge from their R groups.",
+      "D": "Serine and threonine are classified as polar (due to their hydroxyl side chains) but are uncharged, not acidic."
+    }
+  },
+  {
+    "id": 29,
+    "topic": "Proteins",
+    "question": "Every amino acid contains which two functional groups directly attached to the alpha-carbon, in addition to a hydrogen atom and an R group?",
+    "options": {
+      "A": "A hydroxyl group and an ether group",
+      "B": "A carboxylic acid group and an amino group",
+      "C": "Two carbonyl groups",
+      "D": "A thiol group and an alkene group"
+    },
+    "correct": "B",
+    "explanation": "Every alpha-amino acid has an alpha-carbon bonded to a carboxylic acid (-COOH) group, an amino (-NH2) group, a hydrogen atom, and a unique R group, which together give amino acids their characteristic amphoteric (acid-and-base) chemistry.",
+    "notes": {
+      "A": "A hydroxyl and ether group are not the defining functional groups of an amino acid backbone; those are found in carbohydrates and ethers instead.",
+      "C": "Amino acids contain one carbonyl carbon (as part of the carboxylic acid group), not two separate carbonyl groups on the backbone.",
+      "D": "A thiol group appears only in the side chain of cysteine specifically, and an alkene group is not part of the standard amino acid backbone at all."
+    }
+  },
+  {
+    "id": 30,
+    "topic": "Carbonyl Compounds",
+    "question": "Oxidation of a secondary alcohol with a suitable oxidizing agent (such as Jones reagent) produces:",
+    "options": {
+      "A": "An aldehyde",
+      "B": "A ketone",
+      "C": "A carboxylic acid directly",
+      "D": "An alkane"
+    },
+    "correct": "B",
+    "explanation": "Oxidation of primary alcohols gives aldehydes, while oxidation of secondary alcohols gives ketones; because a secondary carbon has no additional hydrogen to lose after forming the carbonyl, the reaction stops at the ketone stage rather than proceeding further.",
+    "notes": {
+      "A": "Aldehydes result from oxidizing primary alcohols, not secondary ones, since a primary carbon retains a hydrogen that can be lost during oxidation to a carbonyl and, further, to a carboxylic acid.",
+      "C": "Direct oxidation to a carboxylic acid happens with primary alcohols under strong oxidizing conditions; secondary alcohols cannot reach the carboxylic acid oxidation state because the carbon lacks a second removable hydrogen.",
+      "D": "Oxidation increases the oxidation state of the carbon (adding a C=O bond), while forming an alkane would require the opposite: a reduction/deoxygenation process."
+    }
+  }
+]
